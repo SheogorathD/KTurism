@@ -156,6 +156,10 @@ function taudio( $name ){
 	echo get_template_directory_uri() . '/media/audio/' . $name;
 }
 
+function abimage( $name ){
+	echo get_template_directory_uri() . '/media/img/about-us/' . $name;
+}
+
 
 // Register Custom Navigation Walker
 require_once('wp-bootstrap-navwalker.php');
