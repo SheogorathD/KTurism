@@ -28,10 +28,20 @@ body{
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 30px 70px;
   background-color: #ffffff;
 }
+
+.container{
+  width: 1400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+/*--------------navbar-----------*/
 
 .logo {
   font-size: 25px;
@@ -60,15 +70,12 @@ li a:hover {
   color: #000;
 }
 
-ul{	 list-style-type: none;
+ul{
+  list-style-type: none;
 }
 
-li{	 display: inline;
-}
-
-.map{
-  padding-left: 100px;
-  padding-top: 10px;
+li{
+  display: inline;
 }
 
 a{
@@ -76,29 +83,14 @@ a{
   cursor: pointer;
 }
 
-.active{
-  color: #000;
-}
-
-.container{
-  width: 1400px;
-  display: flex;
-  justify-content: space-around;
-  overflow:hidden;
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
+/*--------------partners-----------*/
 .text{
-  margin: 50px;
-  padding-left: 10px;  
+  padding-top: 50px;
 }
 
 .text h1{
-  margin-top: -20px;
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   font-size: 50px;
   font-weight: 600;
 }
@@ -106,6 +98,7 @@ a{
 .text p{
   padding-top: 40px;
   padding-bottom: 50px;
+  width: 590px;
 }
 
 button{
@@ -120,11 +113,17 @@ button{
   border-radius: 4px;
 }
 
+.container.partners{
+  display: flex;
+  overflow: hidden;
+}
+
+/*--------------tour-----------*/
+
 .route{
-  padding-top: 100px;
-  width: 1400px;
-  margin-left: auto;
-  margin-right: auto;
+  display: block;
+  width: inherit;
+  margin:auto;
 }
 
 .route h2{
@@ -139,8 +138,10 @@ button{
 }
 
 .manyBoxes{
+  display: flex;
   padding-top: 50px;
-  padding-left: 11%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .box{
@@ -157,10 +158,10 @@ button{
 }
 
 .third{
-  padding-top: 720px;
   width: 1400px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 15px;
 }
 
 .third h2{
@@ -201,7 +202,7 @@ footer{
 }
 
 /*--------------attraction-----------*/
-.container {
+/* .container {
   width: 500px;
 }
 .attraction__list {
@@ -214,6 +215,30 @@ footer{
 .attraction__item-img_wrap {
 }
 .attraction__item-description {
-}
+} */
 
 /*----------------------------------*/
+
+.about_page{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.about_page .box{
+  width: 300px;
+  height: 500px;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.about_page .box h3{
+  text-align: center;
+  font-size: 19px;
+  font-weight: 550;
+}
+
+.about_page .box p{
+  padding: 5px 10px;
+  font-size: 18px;
+}

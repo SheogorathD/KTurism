@@ -160,6 +160,19 @@ function abimage( $name ){
 	echo get_template_directory_uri() . '/media/img/about-us/' . $name;
 }
 
+function oimage( $name ){
+	echo get_template_directory_uri() . '/media/img/object/' . $name;
+}
+
+function page( $name ){
+	echo get_template_directory_uri() . '/details/' . $name;
+}
+
+
+
+
+
+
 
 // Register Custom Navigation Walker
 require_once('wp-bootstrap-navwalker.php');
