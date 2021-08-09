@@ -33,7 +33,7 @@ header {
 }
 
 .container{
-  width: 1400px;
+  width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -85,7 +85,7 @@ a{
 
 /*--------------partners-----------*/
 .text{
-  padding-top: 50px;
+  padding-top: 5%;
 }
 
 .text h1{

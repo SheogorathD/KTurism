@@ -32,12 +32,5 @@
                 'theme_location' => 'main_menu', 
                 'container_class' => 'nav' ) ); 
             ?>
-            <!-- <ul class="nav">
-                <li><a class="<?php echo $home_active ?>" href="<?php echo get_template_directory_uri(); ?>/home.php">Головна</a></li>
-                <li><a class="<?php echo $tours_active ?>" href="<?php echo get_template_directory_uri(); ?>/tour.php">Тури</a></li>
-                <li><a class="<?php echo $partners_active ?>" href="<?php echo get_template_directory_uri(); ?>/partners.php">Партнери</a></li>
-                <li><a class="<?php echo $guides_active ?>" href="<?php echo get_template_directory_uri(); ?>/guides.php">Гіди</a></li>
-                <li><a class="<?php echo $about_us_active ?>" href="<?php echo get_template_directory_uri(); ?>/about-us.php">Про нас</a></li>
-            </ul> -->
         </nav>
     </header>
