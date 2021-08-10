@@ -201,55 +201,6 @@ footer{
   background-color: #e6e6e6;
 }
 
-/*--------------attraction-----------*/
-<<<<<<< HEAD
-.container {
-    display: flex;
-    width: 500px;
-    width: 50%;
-    margin: 15px;
-=======
-/* .container {
-  width: 500px;
->>>>>>> bd4634f5c8164eba94787ec64137c7d27d456a60
-}
-.attraction__list {
-    display: flex;
-}
-.attraction__item-column {
-    display: flex;
-    flex-direction: column;
-}
-.attraction__item-img_wrap {
-    display: flex;
-    width: 100%;
-
-}
-.attraction__item-img_wrap img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.attraction__item-description {
-<<<<<<< HEAD
-    
-}
-
-.attraction__item-description h6 {
-    font-size: 24px;
-    font-weight: normal;
-    margin-top: 15px;
-    margin-bottom: 0;
-}
-.attraction__item-description p {
-    font-weight: normal;
-    margin-top: 15px;
-    margin-bottom: 0;
-=======
-} */
-
-/*----------------------------------*/
-
 .about_page{
   display: flex;
   flex-wrap: wrap;
@@ -261,7 +212,6 @@ footer{
   height: 500px;
   background-color: #ffffff;
   margin: 20px;
->>>>>>> bd4634f5c8164eba94787ec64137c7d27d456a60
 }
 
 .about_page .box h3{
@@ -273,4 +223,28 @@ footer{
 .about_page .box p{
   padding: 5px 10px;
   font-size: 18px;
+}
+
+.item{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.desc{
+padding: 10px 20px;
+}
+
+.desc h1{
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.desc h2{
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }

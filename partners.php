@@ -26,5 +26,5 @@
 
       <h1 style="text-align: center; font-size: 70px; padding-top: 20px;">Ми шукаємо партнерів!</h1>
 
-    </div>
+   </div>
     <?php get_footer(); ?>
