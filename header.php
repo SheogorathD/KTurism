@@ -33,4 +33,19 @@
                 'container_class' => 'nav' ) ); 
             ?>
         </nav>
+
+        <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+            <li><a class="menu__item" href="home">Головна</a></li>
+			<li><a class="menu__item" href="tour">Тури</a></li>
+			<li><a class="menu__item" href="guides">Гіди</a></li>
+			<li><a class="menu__item" href="partners">Партнери</a></li>
+			<li><a class="menu__item" href="about">Про нас</a></li>
+    </ul>
+  </div>
     </header>
