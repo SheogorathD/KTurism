@@ -20,7 +20,7 @@
 
          </div>
 
-         <video id="vid" controls src="<?php vid('IMG_4660.MOV'); ?>" width="50%" height=auto style="margin-right: -20%; padding-left: 10px; width: 70%;"></video>
+         <video id="vid" controls src="<?php vid('IMG_4660.MOV'); ?>" width="50%" height=auto style="margin-right: -10%; padding-left: 10px; width: 70%;"></video>
       
       </div>
 

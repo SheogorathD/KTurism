@@ -86,6 +86,7 @@ a{
 /*--------------partners-----------*/
 .text{
   padding-top: 5%;
+  width: 40%;
 }
 
 .text h1{
@@ -98,7 +99,7 @@ a{
 .text p{
   padding-top: 40px;
   padding-bottom: 50px;
-  width: 590px;
+
 }
 
 button{
@@ -114,6 +115,7 @@ button{
 }
 
 .container.partners{
+  width: inherit;
   display: flex;
   overflow: hidden;
 }
@@ -158,7 +160,7 @@ button{
 }
 
 .third{
-  width: 1400px;
+  width: inherit;
   margin-left: auto;
   margin-right: auto;
   padding-top: 15px;
@@ -247,4 +249,35 @@ padding: 10px 20px;
   text-align: left;
   padding-top: 5px;
   padding-bottom: 10px;
+}
+
+#mapid{
+  width: 90%;
+  height: 85%;
+  position: absolute;
+  bottom: 10px;
+  top: 100px;
+}
+
+@media screen and ( max-width: 1170px ) {
+  header{
+    display: flex;
+    width: 100%;
+  }
+
+  .logo{
+    margin-left: -50px;
+    font-size: 20px;
+  }
+
+  .nav{
+    text-align: right;
+    width: 150px;
+  }
+
+  #mapid{
+    width: 90%;
+    height: 600px;
+    margin-top: 130px;
+  }
 }

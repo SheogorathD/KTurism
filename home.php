@@ -20,7 +20,7 @@
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
 
-        <div id="mapid" style="width: 90%; position: absolute; bottom: 10px; top: 130px;"></div>
+        <div id="mapid"></div>
 
         <script>
             var map = L.map('mapid').setView([46.753,33.682], 8);
