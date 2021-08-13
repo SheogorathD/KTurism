@@ -67,7 +67,7 @@
 
                     <h2>Аудіогід</h2>
                     <audio controls src="<?php taudio('zagubleniy_svit.mp3'); ?>" style="width: 400px; padding-left: 50px; padding-bottom: 10px;"></audio>
-                    <a href="#" style="margin-left: -500px; padding-top: 200px;">Перейти на карту для перегляду інтерактивного маршруту</a>
+                    <a href="https://www.google.com/maps/d/u/0/viewer?mid=146rpkNKXOG5soxAMFEi2gKeCb9pkiSxH&ll=46.78017420866445%2C33.281060005570474&z=15" style="margin-left: -500px; padding-top: 200px;">Перейти на карту для перегляду інтерактивного маршруту</a>
                 </div>
 
                 <img src="<?php timage('Маршрут.jpg'); ?>" alt="route" style="width:50%;">
