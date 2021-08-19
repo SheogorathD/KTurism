@@ -34,53 +34,123 @@
                 popupAnchor:  [-1, -55] // point from which the popup should open relative to the iconAnchor
             });
             
+            var cMA = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-1.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMB = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-2.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMC = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-3.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMD = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-4.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cME = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-5.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMF = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-6.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMG = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-7.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMH = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-8.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMI = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-9.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
+            var cMJ = L.icon({
+                iconUrl: '<?php echo get_template_directory_uri(); ?>/media/img/icons/100x100-10.png',
+                iconAnchor: [35,60],
+                popupAnchor:  [-1, -55],
+                iconSize: [70,70]
+            });
+
             var cA = L.marker([46.87602634982689, 34.43520893540559], {
-                icon: onlyMarker,
+                icon: cMA,
                 title:"смт Нижні Сірогози Генічеського району",
             }).bindPopup("<img src='<?php oimage('01.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Скіфський курган «Огуз» – пам’ятка археології IV ст. до н. е. (смт Нижні Сірогози Генічеського району)</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='ogus' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/Yo8iLY9sMZa78R3i8'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps' ></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cB = L.marker([46.75832312271102, 33.057909336890944], {
-                icon: onlyMarker,
+                icon: cMB,
                 title:"с. Тягинка Бериславського району",
             }).bindPopup("<img src='<?php oimage('02.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Залишки оборонних споруд фортеці Тягинь – пам’ятка археології ХIV – XVI ст. (с. Тягинка Бериславського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='tagyn' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/1g5xVspwvGALthEr7'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cC = L.marker([47.00622334807345, 33.64999371414304], {
-                icon: onlyMarker,
+                icon: cMC,
                 title:"с. Республіканець Бериславського району",
             }).bindPopup("<img src='<?php oimage('03.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Кам’янська Січ та могила кошового отамана Костя Гордієнка – пам’ятка археології XVIII ст. (с. Республіканець Бериславського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='ksich' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/ZxqU5ntfUTQjidJw7'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cD = L.marker([46.848956271235494, 33.44089428461835], {
-                icon: onlyMarker,
+                icon: cMD,
                 title:"м. Берислав",
             }).bindPopup("<img src='<?php oimage('04.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Свято-Введенська дерев’яна церква – пам’ятка архітектури початку XVIII ст. (м. Берислав).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='cerkva' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/BDh7jSEvQtV68MB1A'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cE = L.marker([46.8537, 33.20877], {
-                icon: onlyMarker,
+                icon: cME,
                 title:"с. Бургунка Бериславського району",
             }).bindPopup("<img src='<?php oimage('05.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Бургунський кам’яний міст – пам’ятка історії кінця XVIII ст. (с. Бургунка Бериславського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='mist' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/b9FGhYBUmavdDFxX8'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cF = L.marker([46.64114720211024, 32.626284155775465], {
-                icon: onlyMarker,
+                icon: cMF,
                 title:"м. Херсон",
             }).bindPopup("<img src='<?php oimage('06.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Херсонська фортеця – пам’ятка історії та архітектури кінця XVIII ст. (м. Херсон).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='fortecya' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/1qCq8j7CbxXXu1nN6'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cG = L.marker([46.95205399885384, 33.606321112762195], {
-                icon: onlyMarker,
+                icon: cMG,
                 title:"с. Червоний Маяк Бериславського району",
             }).bindPopup("<img src='<?php oimage('07.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Свято-Григоріївський Бізюків чоловічий монастир – пам’ятка історії кінця XVIII – початку ХХ ст. (с. Червоний Маяк Бериславського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='monastyr' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/3nSfHajuPoztTinA9'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cH = L.marker([46.78742560928144, 33.35768402638266], {
-                icon: onlyMarker,
+                icon: cMH,
                 title:"с. Веселе Бериславського району",
             }).bindPopup("<img src='<?php oimage('08.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Водонапірна вежа маєтку князя П. М. Трубецького («вежа Вітовта») – пам’ятка архітектури XІХ ст. (с. Веселе Бериславського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='vezha' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/9ccajvCzeoqtyLTa9'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cI = L.marker([46.492468732079764, 32.2326636422778], {
-                icon: onlyMarker,
+                icon: cMI,
                 title:"с. Рибальче Скадовського району",
             }).bindPopup("<img src='<?php oimage('09.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Станіслав-Аджигольські маяки – пам’ятка історії початку ХХ ст. (с. Рибальче Скадовського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='mayaky' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/3R815z5WVeqMf1cV7'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
             var cJ = L.marker([46.67160778617346, 32.030020755170774], {
-                icon: onlyMarker,
+                icon: cMJ,
                 title:"с. Олександрівка Херсонського району",
             }).bindPopup("<img src='<?php oimage('10.jpg'); ?>' width='100%' height='auto'><p style='font-size: 20px;'>Хабловський задній маяк – «Маяк у полі» (с. Олександрівка Херсонського району).</p><div style='display:flex; flex-direction: row; justify-content: space-between;'><a href='mayak' style='font-size:15px; color: #000; padding-top:17px;'>Детальніше ></a><a href='https://goo.gl/maps/Vpda6LkezfSNpkBM7'><img src='<?php echo get_template_directory_uri(); ?>/media/img/icons/google-map.svg' width='30px' style='padding-right: 10px;' alt='google-maps'></a></div>", {maxHeight: 500, minWidth: 400});
 
