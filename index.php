@@ -10,6 +10,26 @@
  */
 get_header(); ?>
 
+<div class="middle">
+	<?php
+		// циклы вывода записей
+		// если записи найдены
+		if ( have_posts() ){
+			while ( have_posts() ){
+				the_post();
+                the_content();
 
+
+				echo apply_shortcodes('the_content', 'do_shortcode', 11);
+			}
+		}
+		// елси записей не найдено
+		else{
+			echo ' <p>Записей нет...</p>';
+		}
+		?>
+                <?php  ?>
+
+	</div>
 
 <?php get_footer(); ?>

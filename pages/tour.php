@@ -10,7 +10,6 @@
  */
 
  get_header(); ?>
-    
     <div class="container">
         <div class="route">
 

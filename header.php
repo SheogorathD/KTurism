@@ -16,9 +16,11 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
-	<?php wp_head(); ?>
+	<?php
+  wp_head();
+  ?>
+  
 </head>
 
 <body <?php body_class(); ?>>
@@ -41,11 +43,12 @@
     </label>
 
     <ul class="menu__box">
-            <li><a class="menu__item" href="home">Головна</a></li>
+      <li><a class="menu__item" href="home">Головна</a></li>
 			<li><a class="menu__item" href="tours">Тури</a></li>
 			<li><a class="menu__item" href="guides">Гіди</a></li>
 			<li><a class="menu__item" href="partners">Партнери</a></li>
 			<li><a class="menu__item" href="about">Про нас</a></li>
     </ul>
   </div>
+
     </header>
