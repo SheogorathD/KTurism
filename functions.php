@@ -24,12 +24,12 @@ register_nav_menus(
 );	
 
 function vid( $name ){
-	echo get_template_directory_uri() . '/assets/video/' . $name;
+	echo get_template_directory_uri() . '/src/assets/video/' . $name;
 }
 function taudio( $name ){
-	echo get_template_directory_uri() . '/assets/audio/' . $name;
+	echo get_template_directory_uri() . '/src/assets/audio/' . $name;
 }
 function oimage( $name ){
-	echo get_template_directory_uri() . '/assets/img/object/' . $name;
+	echo get_template_directory_uri() . '/src/assets/img/object/' . $name;
 }
 ?>
