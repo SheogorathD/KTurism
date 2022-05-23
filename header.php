@@ -17,9 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<?php
-  wp_head();
-  ?>
+	<?php wp_head(); ?>
   
 </head>
 
@@ -30,10 +28,7 @@
 
         <nav class="navbar">
         <?php
-            wp_nav_menu( array( 
-                'theme_location' => 'main_menu', 
-                'container_class' => 'nav' ) ); 
-            ?>
+            wp_nav_menu( array( 'theme_location' => 'top-menu', 'container_class' => 'nav' ) ); ?>
         </nav>
 
         <div class="hamburger-menu">
@@ -41,13 +36,8 @@
     <label class="menu__btn" for="menu__toggle">
       <span></span>
     </label>
-
     <ul class="menu__box">
-      <li><a class="menu__item" href="home">Головна</a></li>
-			<li><a class="menu__item" href="tours">Тури</a></li>
-			<li><a class="menu__item" href="guides">Гіди</a></li>
-			<li><a class="menu__item" href="partners">Партнери</a></li>
-			<li><a class="menu__item" href="about">Про нас</a></li>
+      <?php wp_nav_menu( array( 'theme_location' => 'top-menu', 'menu_class' => 'mobile' ) ); ?>
     </ul>
   </div>
 
