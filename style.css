@@ -112,6 +112,7 @@ a {
   align-content: center;
   justify-content: center;
   text-align: justify;
+  max-width: 50%;
 }
 
 .partners-page h1 {
@@ -399,7 +400,7 @@ footer {
 
   .menu__btn {
     display: flex;
-    position: fixed;
+    position: absolute;
     left: 85%;
 
     width: 26px;
@@ -454,6 +455,10 @@ footer {
 
   .partners-page__main-content {
     flex-wrap: wrap;
+  }
+
+  .partners-page__main-text {
+    max-width: 100%;
   }
 
   .partners-page > h1 {
