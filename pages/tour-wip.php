@@ -1,6 +1,6 @@
 <?php
 /**
-/* Template Name: Tour-WIP
+ * Template Name: Tour-WIP
  *
  * Displays Only Tour-WIP template
  *
@@ -10,5 +10,7 @@
  */
 
  get_header(); ?>
-    <h1 style="text-align: center; font-size: 70px; padding-top: 20px;">Сторінка знаходиться в розробці</h1>
-    <?php get_footer(); ?>
+
+<h1 style="text-align: center; font-size: 70px; padding-top: 20px;">Сторінка знаходиться в розробці</h1>
+
+<?php get_footer(); ?>

@@ -9,8 +9,6 @@ get_header(); ?>
 
 <section class="tour__excursion">
     <div class="container">
-        
-
         <?php
             global $post;
 
@@ -19,21 +17,19 @@ get_header(); ?>
                 'category_name' => 'tours'
             ]);
 
-            if( $myposts ){
-                foreach( $myposts as $post ){
+            if( $myposts ) :
+                foreach( $myposts as $post ) :
                     setup_postdata( $post );
-
                     ?>
                         <div class="container">
                             <h2 class="title"><?php the_title(); ?></h2>
                             <?php the_content(); ?>
                         </div>
                     <?php 
-                }
-            }
+                endforeach;
+            endif;
             wp_reset_postdata();
         ?>
-        
     </div>
 </section>
 

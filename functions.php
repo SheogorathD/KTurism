@@ -3,58 +3,29 @@
  * KhersonTurism functions and definitions
  *
  */
-	add_action( 'wp_enqueue_scripts', function() {
-		wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css' );
-		
+add_action( 'wp_enqueue_scripts', function() {
+	wp_enqueue_style( 'style.css', get_template_directory_uri() . '/style.css' );
 } );
+
 add_filter( 'the_content', 'do_shortcode', 11 );
 
-	add_theme_support( 'post-thumbnails' );
-	add_theme_support( 'title-tag' );
-	add_theme_support( 'custom-logo' );
-	add_theme_support('menus');
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'title-tag' );
+add_theme_support( 'custom-logo' );
+add_theme_support('menus');
 
-		// register menu
-	// Menus
+	// register menu
+// Menus
 register_nav_menus(
-
 	array(
-
 		'top-menu' => 'Top Menu Location',
 		'mobile-menu' => 'Mobile Menu Location',
-
 	)
-
-);
-	
-	function vid( $name ){
-		echo get_template_directory_uri() . '/assets/video/' . $name;
-	}
-	
-	function timage( $name ){
-		echo get_template_directory_uri() . '/assets/img/tour/' . $name;
-	}
-	
-	function taudio( $name ){
-		echo get_template_directory_uri() . '/assets/audio/' . $name;
-	}
-	
-	function abimage( $name ){
-		echo get_template_directory_uri() . '/assets/img/about-us/' . $name;
-	}
-	
-	function oimage( $name ){
-		echo get_template_directory_uri() . '/assets/img/object/' . $name;
-	}
-	
-	function page( $name ){
-		echo get_template_directory_uri() . '/details/' . $name;
-	}
-	
+);	
 	/**
- * Возвращает все URL картинок первой галереи из указанного текста записи.
- * Вернёт результат, если галлерея есть и вставлена как блок (Гутенберг).
- */
+	 * Возвращает все URL картинок первой галереи из указанного текста записи.
+	 * Вернёт результат, если галлерея есть и вставлена как блок (Гутенберг).
+	 */
 function get_post_block_gallery_images( $post = 0 ) {
 	$post = get_post( $post );
 
@@ -85,4 +56,4 @@ function get_post_block_gallery_images( $post = 0 ) {
 	// Если блок "Галерея" не нашелся - возвращаем пустой массив
 	return [];
 }
- ?>
+?>
