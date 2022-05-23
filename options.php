@@ -113,9 +113,6 @@ function optionsframework_options() {
 		'type' => 'text'
 	);
 	
-	
-	
-	
 	$options[] = array(
 		'name' => __( 'Phone No:', 'KhersonTurism' ),
 		'placeholder' => __( 'Enter Phone No.', 'KhersonTurism' ),
