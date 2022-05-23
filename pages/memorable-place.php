@@ -1,16 +1,11 @@
 <?php
 
-/**
-/* Template Name: Свято-Введенська дерев’яна церква
+/* Template Name: Пам'ятне місце
  *
- * Displays Only Свято-Введенська дерев’яна церква template
- *
- * @package WordPress
- * @subpackage website
- * @since website 1.0
  */
 
 get_header(); ?>
+
     <div class="container">
         <div class="item">
             
